@@ -1,0 +1,48 @@
+.produ-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  text-decoration: none;
+}
+
+.diskon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.diskon-wrapper__percentage {
+  padding: 0.3rem 0.5rem;
+  color: rgb(255, 92, 132);
+  background-color: rgb(255, 234, 239);
+  border-radius: 8px;
+}
+
+.harga-produk {
+  margin-left: 0.5rem;
+  text-decoration: line-through;
+}
+
+.harga-produk-terdiskon {
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 500px) {
+  .produk-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .produk-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .produk-wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

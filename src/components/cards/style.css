@@ -1,0 +1,21 @@
+.cards {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+  min-height: 350px;
+  flex-basis: 100%;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-decoration: none;
+  color: #202020;
+  min-height: 100%;
+}
+
+.cards:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
